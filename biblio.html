@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblio</title>
+</head>
+<body>
+
+<div id="booksListe"></div>
+
+<div>
+    <form>
+        <label for="newBook">New Livre</label>
+            <input type="text" id="newBook">
+        <label for="author">Auteur</label>
+            <input type="text" id="author">
+        <button type="button" onclick="sendNewBook(document.getElementById('newBook').value,document.getElementById('author').value)">Record</button>
+    </form>
+</div>
+
+<div id="newAuthor"></div>
+<div id="book"></div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
